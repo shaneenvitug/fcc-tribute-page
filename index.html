@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tribute Page</title>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header>
+			<h1 id="title">Grace Hopper: The Mother of Computer Science</h1>
+			<hr />
+			<nav>
+				<a href="#tribute-info">Biography</a>
+				<a href="#trivia">Trivia</a>
+				<a href="#cobol">What is COBOL?</a>
+			</nav>
+		</header>
+		<main id="main">
+			<figure id="img-div">
+				<img
+					id="image"
+					src="https://cosmos-images2.imgix.net/file/spina/photo/17466/181210-gracehopper-full.jpg"
+					alt="A tribute to Grace Hopper, created by the Military Officers' Association of America."
+				/>
+				<figcaption id="img-caption">
+					<p>
+						A tribute to Grace Hopper, created by the Military Officers' Association of America.
+					</p>
+				</figcaption>
+			</figure>
+			<section id="tribute-info">
+				<div id="intro">
+					<p>
+						<strong>
+							“People have an enormous tendency to resist change. They love to say, 'We've always
+							done it this way.' I try to fight that.” —Grace Hopper
+						</strong>
+					</p>
+				</div>
+				<div class="box">
+					<div class="half">
+						<p>
+							Grace Hopper joined the U.S. Navy during World War II and was assigned to program the
+							Mark I computer. She continued to work in computing after the war, leading the team
+							that created the first computer language compiler, which led to the popular
+							<strong><a id="cobol-link" href="#cobol">COBOL language</a></strong
+							>.
+						</p>
+						<br />
+						<p>
+							Hopper noticed that many people did not further invest their time in computer science
+							because they found it hard to understand Executable Machine Code. This lead to
+							Hopper’s creation of the compiler; which today translates high-level programming
+							languages (such as Java or Python) to a language in which computers could understand.
+						</p>
+						<br />
+						<p>
+							Hopper also coined the word ‘bug.’ In the 1940s, her team was working on a computer
+							glitch, only to discover the problem was a bug—a live bug, that is: a moth stuck in an
+							electrical switch. Hence, they ‘debugged’ the first computer.
+						</p>
+					</div>
+					<div class="half">
+						<img id="compiler" src="img/compilerwork.jpg" alt="how compilers work" />
+					</div>
+				</div>
+			</section>
+			<section id="trivia">
+				<h2>QUICK FACTS/TRIVIA</h2>
+				<div class="box2">
+					<div class="half">
+						<img id="gracebnw" src="img/gracehopper.jpg" alt="grace hopper black and white" />
+					</div>
+					<div class="half" id="facts">
+						<p><strong>FULL NAME:</strong> <em>Grace Brewster Murray Hopper</em></p>
+						<p><strong>MAIDEN NAME:</strong> <em>Grace Brewster Murray</em></p>
+						<p>
+							<strong>NICKNAMES:</strong>
+							<em>Grandmother of Cobol, Grandma Cobol, Amazing Grace</em>
+						</p>
+						<p><strong>BIRTH DATE - DEATH:</strong> <em>9 December 1906 - 1 January 1992</em></p>
+						<p><strong>PLACE OF BIRTH:</strong> <em>New York, New York</em></p>
+						<p><strong>PLACE OF DEATH:</strong> <em>Arlington, Virginia</em></p>
+						<p><strong>EDUCATION:</strong> <em>Yale University, Vassar College</em></p>
+					</div>
+				</div>
+			</section>
+			<section id="cobol">
+				<h2>WHAT IS COBOL PROGRAMMING?</h2>
+				<div class="box" id="last">
+					<div class="half">
+						<p>
+							COBOL is a high-level programming language primarily used for business applications.
+							At the time of its creation, it was the first popular language designed to
+							be Operating System agnostic (can run on any Operating System) and is still in use in
+							many financial and business applications today.
+						</p>
+						<p>
+							COBOL is also still widely used in legacy applications deployed on mainframe
+							computers, such as large-scale batch and transaction processing jobs.
+						</p>
+						<p>
+							It was officially standardized in 1968 and has received four major revisions over the
+							years. Expansions include support for structured and object-oriented programming. The
+							current standard is ISO/IEC 1989:2014.
+						</p>
+						<p>
+							Click
+							<strong
+								><a
+									id="tribute-link"
+									href="https://en.wikipedia.org/wiki/Grace_Hopper#COBOL"
+									target="_blank"
+									>here</a
+								></strong
+							>
+							to learn more about COBOL Programming.
+						</p>
+					</div>
+					<div class="half">
+						<img id="graceart" src="img/graceart.jpg" alt="artistic photo of grace hopper " />
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div id="container">
+					<div>
+						<a href="https://www.linkedin.com/in/shaneen-vitug/" target="_blank"
+							><img src="img/linkedin.png" alt="linkedin icon"
+						/></a>
+					</div>
+					<div>
+						<a href="https://twitter.com/shaneenvitug" target="_blank"
+							><img src="img/twitter.png" alt="twitter icon"
+						/></a>
+					</div>
+					<div>
+						<a href="https://github.com/shaneenvitug" target="_blank"
+							><img src="img/github.png" alt="github icon"
+						/></a>
+					</div>
+				</div>
+				<hr />
+				<div id="info">
+					<p>
+						website cleverly crafted by
+						<a href="https://shaneenvitug.com/" target="_blank">shaneen vitug</a> © 2020
+					</p>
+					<p>a <a href="https://www.freecodecamp.org/">freeCodeCamp</a> project</p>
+				</div>
+			</footer>
+		</main>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>

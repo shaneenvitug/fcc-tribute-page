@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-family: Manrope, sans-serif;
+  color: #2e4257;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  margin-top: -1em;
+}
+
+h1 {
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  margin-top: 0.9em;
+  margin-bottom: 0.5em;
+}
+
+nav {
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  background-color: rgb(181, 100, 100);
+  padding: 0.5em;
+  width: 100%;
+  margin-top: -0.5em;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  margin-right: 1em;
+}
+
+nav a:hover {
+  background-color: rgb(242, 195, 195);
+  color: rgb(181, 100, 100);
+  padding: 0.5em;
+}
+
+main {
+  padding-top: 6em;
+}
+
+img {
+  max-width: 80%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  text-align: center;
+  margin-top: 1em;
+}
+
+#intro {
+  width: 75%;
+  padding: 5em 0;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+}
+
+#intro p {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.box {
+  display: flex;
+  padding: 4rem 2rem;
+  background-color: rgba(78, 20, 20, 0.05);
+}
+
+.box p {
+  line-height: 1.5em;
+  font-size: 1.05em;
+}
+
+.box2 {
+  display: flex;
+  padding: 2rem 2rem 0 2rem;
+  margin-bottom: 7em;
+}
+
+.box2 p {
+  line-height: 1.5em;
+  font-size: 1.05em;
+}
+
+.half {
+  flex: 1;
+  padding: 1rem;
+}
+
+#compiler {
+  box-shadow: 4px 4px 21px -6px rgba(114, 105, 122, 1);
+  max-width: 60%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+#trivia {
+  margin-top: 5.5em;
+}
+
+h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 1.8em;
+  padding-left: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+#facts p {
+  line-height: 2em;
+}
+
+#gracebnw {
+  box-shadow: 4px 4px 21px -6px rgba(114, 105, 122, 1);
+  max-width: 75%;
+  height: auto;
+  margin: 0 auto;
+  margin-left: 0.1em;
+}
+
+#cobol h2 {
+  padding-left: 3rem;
+  background-color: rgba(78, 20, 20, 0.05);
+  padding-top: 3.5em;
+}
+
+#cobol p {
+  line-height: 2em;
+  font-size: 1.05em;
+}
+
+#last {
+  padding-top: 1em;
+}
+
+#tribute-link {
+  color: rgb(181, 100, 100);
+}
+
+#cobol-link {
+  color: rgb(181, 100, 100);
+}
+
+#graceart {
+  box-shadow: 4px 4px 21px -6px rgba(114, 105, 122, 1);
+  max-width: 75%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+footer {
+  background-color: #363638;
+  color: white;
+  padding: 2em;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+footer img {
+  max-width: 2em;
+  height: auto;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+
+#info {
+  margin-top: 1em;
+  text-align: center;
+}
+
+#info a {
+  color: rgb(181, 100, 100);
+}
+
+#info p {
+  color: #FAEFE9;
+  line-height: 2em;
+}
